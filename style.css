@@ -50,6 +50,7 @@ button{
     border-radius: 5px;
     font-size: 15px;
     padding: 10px 15px;
+    cursor: pointer;
 }
 
 #result-part{
