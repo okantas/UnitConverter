@@ -37,15 +37,11 @@ convertBtn.addEventListener("click", function(){
     //convert("meters","feet",3.281)
      let input =  mainNumber.value
 
-    conversion1.textContent = `${input} ${data[0].metric}= ${(input*data[0].valueOfMetric).toFixed(3)} ${data[0].impariel} | ${input} ${data[0].impariel} = ${(input/data[0].valueOfMetric).toFixed(3)} ${data[0].metric}`
-    conversion2.textContent = `${input} ${data[1].metric}= ${(input*data[1].valueOfMetric).toFixed(3)} ${data[1].impariel} | ${input} ${data[1].impariel} = ${(input/data[1].valueOfMetric).toFixed(3)} ${data[1].metric}`
-    conversion3.textContent = `${input} ${data[2].metric}= ${(input*data[2].valueOfMetric).toFixed(3)} ${data[2].impariel} | ${input} ${data[2].impariel} = ${(input/data[2].valueOfMetric).toFixed(3)} ${data[2].metric}`
+    conversion1.textContent = `${input} ${data[0].metric}= ${(input*data[0].valueOfMetric).toFixed(3)} ${data[0].impariel}
+    | ${input} ${data[0].impariel} = ${(input/data[0].valueOfMetric).toFixed(3)} ${data[0].metric}`
+    conversion2.textContent = `${input} ${data[1].metric}= ${(input*data[1].valueOfMetric).toFixed(3)} ${data[1].impariel} 
+    | ${input} ${data[1].impariel} = ${(input/data[1].valueOfMetric).toFixed(3)} ${data[1].metric}`
+    conversion3.textContent = `${input} ${data[2].metric}= ${(input*data[2].valueOfMetric).toFixed(3)} ${data[2].impariel}
+    | ${input} ${data[2].impariel} = ${(input/data[2].valueOfMetric).toFixed(3)} ${data[2].metric}`
 
 })
-
-
-
-
-    
-
-
